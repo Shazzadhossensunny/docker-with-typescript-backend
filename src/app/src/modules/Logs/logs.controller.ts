@@ -21,7 +21,7 @@ const getAllErrorLogs = async (req: Request, res: Response) => {
     <html>
       <head>
         <title>Error Logs</title>
-        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="/style.css">
       </head>
       <body>
         <h1>Error Logs</h1>
@@ -52,7 +52,7 @@ const getAllSuccessLogs = async (req: Request, res: Response) => {
     <html>
       <head>
         <title>Success Logs</title>
-        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="/style.css">
       </head>
       <body>
         <h1>Success Logs</h1>
@@ -81,7 +81,7 @@ const getSpecificErrorLog = async (req: Request, res: Response) => {
           <html>
             <head>
               <title>Error</title>
-              <link rel="stylesheet" href="/styles.css">
+              <link rel="stylesheet" href="/style.css">
             </head>
             <body>
               <h1>Error</h1>
@@ -95,7 +95,7 @@ const getSpecificErrorLog = async (req: Request, res: Response) => {
           <html>
             <head>
               <title>Log File: ${logfile}</title>
-              <link rel="stylesheet" href="/styles.css">
+              <link rel="stylesheet" href="/style.css">
             </head>
             <body>
               <h1>Log File: ${logfile}</h1>
@@ -111,7 +111,7 @@ const getSpecificErrorLog = async (req: Request, res: Response) => {
       <html>
         <head>
           <title>Log Not Found</title>
-          <link rel="stylesheet" href="/styles.css">
+          <link rel="stylesheet" href="/style.css">
         </head>
         <body>
           <h1>Log Not Found</h1>
@@ -142,7 +142,7 @@ const getSpecificSuccessLog = async (req: Request, res: Response) => {
           <html>
             <head>
               <title>Error</title>
-              <link rel="stylesheet" href="/styles.css">
+              <link rel="stylesheet" href="/style.css">
             </head>
             <body>
               <h1>Error</h1>
@@ -156,7 +156,7 @@ const getSpecificSuccessLog = async (req: Request, res: Response) => {
           <html>
             <head>
               <title>Log File: ${logfile}</title>
-              <link rel="stylesheet" href="/styles.css">
+              <link rel="stylesheet" href="/style.css">
             </head>
             <body>
               <h1>Log File: ${logfile}</h1>
@@ -172,7 +172,7 @@ const getSpecificSuccessLog = async (req: Request, res: Response) => {
         <html>
           <head>
             <title>Log Not Found</title>
-            <link rel="stylesheet" href="/styles.css">
+            <link rel="stylesheet" href="/style.css">
           </head>
           <body>
             <h1>Log Not Found</h1>

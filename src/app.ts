@@ -46,7 +46,7 @@ app.use((err: Error, req: Request, res: Response, next: any) => {
     <html>
       <head>
         <title>Error</title>
-        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="/style.css">
       </head>
       <body>
         <h1>Something went wrong</h1>
